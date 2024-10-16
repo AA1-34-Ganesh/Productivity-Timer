@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: salmon;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .nav-item {
+            font-size: medium;
+            border: solid pink;
+            padding: 4px 10px;
+            text-decoration: none;
+            color: black;
+            margin: 0 5px;
+        }
+
+        .nav-item:hover {
+            background-color: lightcoral;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        ul {
+            font-style: italic;
+            font-size: medium;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        #connection-page {
+            font-size: large;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: salmon;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Welcome To My Portfolio.....!</h1>
+            <a class="nav-item" href="#About-section">About</a>
+            <a class="nav-item" href="#certification">Certifications</a>
+            <a class="nav-item" href="#project-section">Projects</a>
+            <a class="nav-item" href="#connect-section">Connect With Me</a>
+            <a class="nav-item" href="#contact-section">Contact</a>
+        </nav>
+    </header>
+
+    <section id="About-section">
+        <h1>About Me</h1>
+        <ul>
+            <li>Currently pursuing a degree in Computer Science with a focus on Data Science and Artificial Intelligence at Dr. MGR Educational and Research Institute, Chennai.</li>
+            <li>Skilled in Python, Java, and HTML.</li>
+            <li>Proficient in MySQL, SQL Server Management Studio, and Postman.</li>
+            <li>Career Counselor and Digital Marketer at a Business Analyst.</li>
+            <li>Gaining experience in Data Analysis and learning Data Structures and Algorithms (DSA).</li>
+            <li>Actively involved in promoting Sustainability Goals (SDGs) and organizing student events.</li>
+            <li>Strong leadership, communication, and problem-solving abilities.</li>
+        </ul>
+    </section>
+
+    <section id="certification">
+        <h1>Certifications</h1>
+        <ul>
+            <li>I received a certification in <b>Fundamentals of Generative AI</b> from Guvi Networks, IITM Research Park. <a href="https://www.guvi.in/share-certificate/778e42727G57zo1RQP">Link</a></li>
+            <li>I successfully completed the <b>Introduction to Python</b> from IBM Career Education program, gaining a solid foundation in Python programming. <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/0de96b4beffa4ca5b8acce759386a4c2">Link</a></li>
+            <li>I obtained a certification in <b>Java Fundamentals</b> from IBMCEP. This course provided essential knowledge in Java programming, covering topics like object-oriented principles, data structures, and core Java. <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/e8d14f6c77574702872417087222df9c">Link</a></li>
+        </ul>
+    </section>
+
+    <section id="project-section">
+        <h1>Projects</h1>
+        <!-- Add project details here -->
+    </section>
+
+    <section id="connect-section">
+        <h1>Connect With Me</h1>
+        <form id="connection-page">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name...">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email...">
+            
+            <label for="feedback">Share your feedback:</label>
+            <textarea id="feedback" rows="5" placeholder="Your feedback..."></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
